@@ -240,7 +240,7 @@ const Home: NextPage = () => {
                 <a className="btn btn-primary" href="#">
                   Book a discovery call
                 </a>
-                <a className="btn btn-secondary" href="mailto:austin.griffith@ethereum.org">
+                <a className="btn btn-accent" href="mailto:austin.griffith@ethereum.org">
                   Email us
                 </a>
               </div>
