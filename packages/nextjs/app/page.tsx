@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[#0b1f44] via-[#162b66] to-[#0f766e] text-white">
+      <section className="bg-gradient-to-br from-[#0b1f44] via-[#162b66] to-[#14b8a6] text-white">
         <div className="max-w-6xl mx-auto px-6 pt-20 pb-24">
           <div className="grid md:grid-cols-12 gap-10 items-center">
             <div className="md:col-span-7">
