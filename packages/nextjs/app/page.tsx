@@ -19,10 +19,10 @@ const Home: NextPage = () => {
         <div className="max-w-6xl mx-auto px-6 pt-20 pb-24">
           <div className="grid md:grid-cols-12 gap-10 items-center">
             <div className="md:col-span-7">
-              <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">
-                Enterprise Ethereum Training & Certification
+              <h1 className="text-5xl md:text-6xl font-medium tracking-tight pb-4">
+                Enterprise Ethereum <br /> Training & Certification
               </h1>
-              <p className="mt-5 text-lg leading-relaxed text-white/85">
+              <p className="mt-5 text-lg leading-relaxed text-white/85" style={{ maxWidth: "500px" }}>
                 Upskill your teams with hands‑on labs taught by practitioners from the Ethereum Foundation and
                 BuidlGuidl — creators of tools like Scaffold‑ETH and SpeedRunEthereum. Practical, secure,
                 production‑ready.
