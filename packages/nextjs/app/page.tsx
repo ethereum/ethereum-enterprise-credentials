@@ -174,49 +174,49 @@ const Home: NextPage = () => {
           </p>
 
           <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Foundations</p>
               <p className="m-0 text-base-content/80">
                 EVM, accounts, transactions, gas, ERC standards, wallets, RPCs.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Smart contract development</p>
               <p className="m-0 text-base-content/80">Solidity, testing, upgrades, access control, events, indexing.</p>
             </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">DEX</p>
               <p className="m-0 text-base-content/80">AMMs, liquidity, fees, slippage, price oracles, sandwich risk.</p>
             </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Stablecoins</p>
               <p className="m-0 text-base-content/80">
                 Over‑collateralization, peg mechanisms, liquidations, risk controls.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Real‑World Assets (RWA)</p>
               <p className="m-0 text-base-content/80">
                 Tokenization flows, custodians, attestations, compliance patterns.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Deploy to L2</p>
               <p className="m-0 text-base-content/80">
                 Optimism/Base/Arbitrum, bridges, sequencing, costs, reliability.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Security</p>
               <p className="m-0 text-base-content/80">
                 Threat modeling, common vulns, audits, monitoring, incident response.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">DevEx & Ops</p>
               <p className="m-0 text-base-content/80">Tooling, CI, key management, change control, observability.</p>
             </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300">
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Capstone build</p>
               <p className="m-0 text-base-content/80">
                 Ship a production‑grade prototype integrating multiple modules.
