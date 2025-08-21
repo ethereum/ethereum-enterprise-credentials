@@ -237,10 +237,20 @@ const Home: NextPage = () => {
                 and security leads. Cohorts start every month.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
-                <a className="btn btn-primary" href="#">
+                <a
+                  className="btn btn-primary"
+                  href="https://calendly.com/austintgriffith"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Book a discovery call
                 </a>
-                <a className="btn btn-accent" href="mailto:austin.griffith@ethereum.org">
+                <a
+                  className="btn btn-accent"
+                  href="mailto:austin.griffith@ethereum.org"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Email us
                 </a>
               </div>
