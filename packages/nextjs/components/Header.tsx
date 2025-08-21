@@ -41,7 +41,7 @@ export const HeaderMenuLinks = () => {
               href={href}
               passHref
               className={`${
-                isActive ? "bg-secondary shadow-md" : "bg-base-200"
+                isActive ? "bg-secondary shadow-md" : "bg-[#F2EBFF]"
               } hover:bg-white focus:!bg-white active:!text-neutral py-1.5 px-3 text-sm rounded-full gap-2 grid grid-flow-col`}
             >
               {icon}
@@ -64,7 +64,7 @@ export const Header = () => {
   });
 
   return (
-    <div className="sticky lg:static top-0 navbar bg-base-200 min-h-0 shrink-0 justify-between z-20 shadow-md px-0 sm:px-2">
+    <div className="sticky lg:static top-0 navbar bg-[#F2EBFF] min-h-0 shrink-0 justify-between z-20 shadow-md px-0 sm:px-2">
       <div className="navbar-start w-auto lg:w-1/2">
         <Link href="/" passHref className="flex items-center gap-2 ml-4 mr-4 lg:mr-10 shrink-0">
           <div className="flex relative w-8 h-8 lg:w-10 lg:h-10">
@@ -87,7 +87,7 @@ export const Header = () => {
             <Bars3Icon className="h-1/2" />
           </summary>
           <ul
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow-sm bg-base-200 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow-sm bg-[#F2EBFF] rounded-box w-52"
             onClick={() => {
               burgerMenuRef?.current?.removeAttribute("open");
             }}
