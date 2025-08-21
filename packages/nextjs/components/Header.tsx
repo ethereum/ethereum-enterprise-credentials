@@ -72,7 +72,7 @@ export const Header = () => {
           </div>
           <div className="flex flex-col lg:flex">
             <span className="font-bold leading-none text-sm lg:text-base">
-              Enterprise <br /> Ethereum training
+              Enterprise <br /> Ethereum Training
             </span>
           </div>
         </Link>
