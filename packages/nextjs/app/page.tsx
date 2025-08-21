@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[#0b1f44] via-[#162b66] to-[#14b8a6] text-white">
+      <section className="bg-gradient-to-br from-[#0b1f44] via-[#863AFF] to-[#14b8a6] text-white">
         <div className="max-w-6xl mx-auto px-6 pt-20 pb-24">
           <div className="grid md:grid-cols-12 gap-10 items-center">
             <div className="md:col-span-7">
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                 production‑ready.
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <a href="#curriculum" className="btn btn-accent gap-2 shadow-lg">
+                <a href="#curriculum" className="btn btn-info gap-2 shadow-lg">
                   View Curriculum
                   <ArrowRightIcon className="h-4 w-4" />
                 </a>
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
       </section>
 
       {/* Partners */}
-      <section className="bg-[#f1f5ff]">
+      <section className="bg-base-200">
         <div className="max-w-6xl mx-auto px-6 py-6">
           <div className="flex items-center justify-center gap-10">
             <div className="flex flex-col gap-1">
@@ -245,12 +245,7 @@ const Home: NextPage = () => {
                 >
                   Book a discovery call
                 </a>
-                <a
-                  className="btn btn-accent"
-                  href="mailto:austin.griffith@ethereum.org"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a className="btn btn-info" href="mailto:austin.griffith@ethereum.org" target="_blank" rel="noreferrer">
                   Email us
                 </a>
               </div>
