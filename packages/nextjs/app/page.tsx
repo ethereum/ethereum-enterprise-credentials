@@ -177,6 +177,12 @@ const Home: NextPage = () => {
               </p>
             </div>
             <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
+              <p className="m-0 font-semibold">Vaults</p>
+              <p className="m-0 text-base-content/80">
+                Yield strategies, asset management, vault mechanics, risk assessment, automated rebalancing.
+              </p>
+            </div>
+            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Real‑World Assets (RWA)</p>
               <p className="m-0 text-base-content/80">
                 Tokenization flows, custodians, attestations, compliance patterns.
@@ -193,10 +199,6 @@ const Home: NextPage = () => {
               <p className="m-0 text-base-content/80">
                 Threat modeling, common vulns, audits, monitoring, incident response.
               </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
-              <p className="m-0 font-semibold">DevEx & Ops</p>
-              <p className="m-0 text-base-content/80">Tooling, CI, key management, change control, observability.</p>
             </div>
             <div className="p-6 rounded-2xl bg-base-100 shadow-sm border border-base-300 transition-all duration-300 hover:bg-base-200">
               <p className="m-0 font-semibold">Capstone build</p>
